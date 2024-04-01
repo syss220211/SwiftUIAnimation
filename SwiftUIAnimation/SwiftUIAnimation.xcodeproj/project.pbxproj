@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		D564D8DD2BB3E84D008EB4EE /* AboutOffSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D564D8DC2BB3E84D008EB4EE /* AboutOffSet.swift */; };
 		D564D8DF2BB3E873008EB4EE /* AboutPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D564D8DE2BB3E873008EB4EE /* AboutPadding.swift */; };
-		D564D8E12BB3E929008EB4EE /* AboutPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D564D8E02BB3E929008EB4EE /* AboutPosition.swift */; };
 		D564D8E32BB3F1D0008EB4EE /* BasicLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D564D8E22BB3F1CF008EB4EE /* BasicLayout.swift */; };
 		D564D8E72BB4F362008EB4EE /* BasicGraphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = D564D8E62BB4F362008EB4EE /* BasicGraphic.swift */; };
+		D564D8EA2BB5239C008EB4EE /* AboutPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D564D8E92BB5239C008EB4EE /* AboutPosition.swift */; };
+		D564D8EC2BB552B5008EB4EE /* OffsetAndPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D564D8EB2BB552B5008EB4EE /* OffsetAndPosition.swift */; };
+		D564D8EE2BB583B4008EB4EE /* AboutAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D564D8ED2BB583B4008EB4EE /* AboutAnimation.swift */; };
 		D5A0DAAE2BAFEBC7000CA06E /* SwiftUIAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A0DAAD2BAFEBC7000CA06E /* SwiftUIAnimationApp.swift */; };
 		D5A0DAB02BAFEBC7000CA06E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A0DAAF2BAFEBC7000CA06E /* ContentView.swift */; };
 		D5A0DAB22BAFEBC9000CA06E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A0DAB12BAFEBC9000CA06E /* Assets.xcassets */; };
@@ -23,9 +25,11 @@
 /* Begin PBXFileReference section */
 		D564D8DC2BB3E84D008EB4EE /* AboutOffSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutOffSet.swift; sourceTree = "<group>"; };
 		D564D8DE2BB3E873008EB4EE /* AboutPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPadding.swift; sourceTree = "<group>"; };
-		D564D8E02BB3E929008EB4EE /* AboutPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPosition.swift; sourceTree = "<group>"; };
 		D564D8E22BB3F1CF008EB4EE /* BasicLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicLayout.swift; sourceTree = "<group>"; };
 		D564D8E62BB4F362008EB4EE /* BasicGraphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicGraphic.swift; sourceTree = "<group>"; };
+		D564D8E92BB5239C008EB4EE /* AboutPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPosition.swift; sourceTree = "<group>"; };
+		D564D8EB2BB552B5008EB4EE /* OffsetAndPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetAndPosition.swift; sourceTree = "<group>"; };
+		D564D8ED2BB583B4008EB4EE /* AboutAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAnimation.swift; sourceTree = "<group>"; };
 		D5A0DAAA2BAFEBC7000CA06E /* SwiftUIAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A0DAAD2BAFEBC7000CA06E /* SwiftUIAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationApp.swift; sourceTree = "<group>"; };
 		D5A0DAAF2BAFEBC7000CA06E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -63,6 +67,18 @@
 			path = 2019;
 			sourceTree = "<group>";
 		};
+		D564D8E82BB4FE49008EB4EE /* BasicStudy */ = {
+			isa = PBXGroup;
+			children = (
+				D564D8DC2BB3E84D008EB4EE /* AboutOffSet.swift */,
+				D564D8E92BB5239C008EB4EE /* AboutPosition.swift */,
+				D564D8DE2BB3E873008EB4EE /* AboutPadding.swift */,
+				D564D8EB2BB552B5008EB4EE /* OffsetAndPosition.swift */,
+				D564D8ED2BB583B4008EB4EE /* AboutAnimation.swift */,
+			);
+			path = BasicStudy;
+			sourceTree = "<group>";
+		};
 		D5A0DAA12BAFEBC7000CA06E = {
 			isa = PBXGroup;
 			children = (
@@ -82,10 +98,11 @@
 		D5A0DAAC2BAFEBC7000CA06E /* SwiftUIAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				D564D8E42BB4F30D008EB4EE /* WWDC */,
 				D5A0DAAD2BAFEBC7000CA06E /* SwiftUIAnimationApp.swift */,
 				D5A0DAAF2BAFEBC7000CA06E /* ContentView.swift */,
 				D5A0DAB12BAFEBC9000CA06E /* Assets.xcassets */,
+				D564D8E82BB4FE49008EB4EE /* BasicStudy */,
+				D564D8E42BB4F30D008EB4EE /* WWDC */,
 				D5A0DABB2BAFEBCE000CA06E /* GeometryEffect */,
 				D5A0DAB32BAFEBC9000CA06E /* Preview Content */,
 			);
@@ -105,9 +122,6 @@
 			children = (
 				D5A0DABC2BAFEBE5000CA06E /* GeometryEffect_1.swift */,
 				D5A0DABE2BAFF5F0000CA06E /* DragGesture_1.swift */,
-				D564D8DC2BB3E84D008EB4EE /* AboutOffSet.swift */,
-				D564D8DE2BB3E873008EB4EE /* AboutPadding.swift */,
-				D564D8E02BB3E929008EB4EE /* AboutPosition.swift */,
 			);
 			path = GeometryEffect;
 			sourceTree = "<group>";
@@ -182,14 +196,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D564D8EA2BB5239C008EB4EE /* AboutPosition.swift in Sources */,
 				D5A0DABD2BAFEBE5000CA06E /* GeometryEffect_1.swift in Sources */,
 				D564D8DF2BB3E873008EB4EE /* AboutPadding.swift in Sources */,
 				D5A0DAB02BAFEBC7000CA06E /* ContentView.swift in Sources */,
 				D5A0DAAE2BAFEBC7000CA06E /* SwiftUIAnimationApp.swift in Sources */,
-				D564D8E12BB3E929008EB4EE /* AboutPosition.swift in Sources */,
 				D564D8E32BB3F1D0008EB4EE /* BasicLayout.swift in Sources */,
 				D5A0DABF2BAFF5F0000CA06E /* DragGesture_1.swift in Sources */,
+				D564D8EC2BB552B5008EB4EE /* OffsetAndPosition.swift in Sources */,
 				D564D8DD2BB3E84D008EB4EE /* AboutOffSet.swift in Sources */,
+				D564D8EE2BB583B4008EB4EE /* AboutAnimation.swift in Sources */,
 				D564D8E72BB4F362008EB4EE /* BasicGraphic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
