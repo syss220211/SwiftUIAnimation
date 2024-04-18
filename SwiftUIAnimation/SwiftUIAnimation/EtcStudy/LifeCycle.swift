@@ -27,12 +27,6 @@ struct LifeCycle: View {
                     NavigationLink(value: platform) {
                         Label(platform.name, systemImage: platform.imageName)
                             .foregroundColor(platform.color)
-                            .onAppear {
-                                print("🍀 두번째화면 onappear!")
-                            }
-                            .onDisappear {
-                                print("🍀 두번째화면 onDisappear!")
-                            }
                     }
                 }
             }
@@ -46,12 +40,17 @@ struct LifeCycle: View {
                         Text(platform.name)
                     }.font(.largeTitle)
                 }
+                .onAppear {
+                    print("🍀 두번째화면 onappear!")
+                }
+                .onDisappear {
+                    print("🍀 두번째화면 onDisappear!")
+                }
             }
             // NavigationLink 와 NavigationDestination은 묶여서 사용되는 존재임
         }
         .task {
             // View가 생성되지 전에 비동기 함수가 실행되는 부분일 뿐 Onappear보다 먼저 실행된다고 보장할 수 없음
-            
             print("🔥🔥 첫 번째화면 task 시작!")
             DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
                 self.text = "잘가"

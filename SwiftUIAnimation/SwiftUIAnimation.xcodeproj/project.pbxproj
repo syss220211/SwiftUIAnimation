@@ -25,6 +25,7 @@
 		D5A62C2C2BD11D7D00EFA70E /* ModalLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A62C2B2BD11D7D00EFA70E /* ModalLifeCycle.swift */; };
 		D5A62C2E2BD11EAF00EFA70E /* SecondModalLifyCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A62C2D2BD11EAF00EFA70E /* SecondModalLifyCycle.swift */; };
 		D5A62C322BD136AF00EFA70E /* DestinationLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A62C312BD136AF00EFA70E /* DestinationLifeCycle.swift */; };
+		D5A62C342BD166F600EFA70E /* LazyStackLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A62C332BD166F600EFA70E /* LazyStackLifeCycle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		D5A62C2B2BD11D7D00EFA70E /* ModalLifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalLifeCycle.swift; sourceTree = "<group>"; };
 		D5A62C2D2BD11EAF00EFA70E /* SecondModalLifyCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondModalLifyCycle.swift; sourceTree = "<group>"; };
 		D5A62C312BD136AF00EFA70E /* DestinationLifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationLifeCycle.swift; sourceTree = "<group>"; };
+		D5A62C332BD166F600EFA70E /* LazyStackLifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStackLifeCycle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				D5A62C2B2BD11D7D00EFA70E /* ModalLifeCycle.swift */,
 				D5A62C2D2BD11EAF00EFA70E /* SecondModalLifyCycle.swift */,
 				D5A62C312BD136AF00EFA70E /* DestinationLifeCycle.swift */,
+				D5A62C332BD166F600EFA70E /* LazyStackLifeCycle.swift */,
 			);
 			path = EtcStudy;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				D564D8EE2BB583B4008EB4EE /* AboutAnimation.swift in Sources */,
 				D5A62C282BD1108D00EFA70E /* LifeCycle.swift in Sources */,
 				D564D8E72BB4F362008EB4EE /* BasicGraphic.swift in Sources */,
+				D5A62C342BD166F600EFA70E /* LazyStackLifeCycle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
