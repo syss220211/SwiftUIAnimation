@@ -20,6 +20,11 @@
 		D5A0DAB52BAFEBC9000CA06E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A0DAB42BAFEBC9000CA06E /* Preview Assets.xcassets */; };
 		D5A0DABD2BAFEBE5000CA06E /* GeometryEffect_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A0DABC2BAFEBE5000CA06E /* GeometryEffect_1.swift */; };
 		D5A0DABF2BAFF5F0000CA06E /* DragGesture_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A0DABE2BAFF5F0000CA06E /* DragGesture_1.swift */; };
+		D5A62C282BD1108D00EFA70E /* LifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A62C272BD1108D00EFA70E /* LifeCycle.swift */; };
+		D5A62C2A2BD110A100EFA70E /* SecondLiftCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A62C292BD110A100EFA70E /* SecondLiftCycle.swift */; };
+		D5A62C2C2BD11D7D00EFA70E /* ModalLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A62C2B2BD11D7D00EFA70E /* ModalLifeCycle.swift */; };
+		D5A62C2E2BD11EAF00EFA70E /* SecondModalLifyCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A62C2D2BD11EAF00EFA70E /* SecondModalLifyCycle.swift */; };
+		D5A62C322BD136AF00EFA70E /* DestinationLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A62C312BD136AF00EFA70E /* DestinationLifeCycle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,11 @@
 		D5A0DAB42BAFEBC9000CA06E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D5A0DABC2BAFEBE5000CA06E /* GeometryEffect_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryEffect_1.swift; sourceTree = "<group>"; };
 		D5A0DABE2BAFF5F0000CA06E /* DragGesture_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture_1.swift; sourceTree = "<group>"; };
+		D5A62C272BD1108D00EFA70E /* LifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycle.swift; sourceTree = "<group>"; };
+		D5A62C292BD110A100EFA70E /* SecondLiftCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondLiftCycle.swift; sourceTree = "<group>"; };
+		D5A62C2B2BD11D7D00EFA70E /* ModalLifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalLifeCycle.swift; sourceTree = "<group>"; };
+		D5A62C2D2BD11EAF00EFA70E /* SecondModalLifyCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondModalLifyCycle.swift; sourceTree = "<group>"; };
+		D5A62C312BD136AF00EFA70E /* DestinationLifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinationLifeCycle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,16 +77,15 @@
 			path = 2019;
 			sourceTree = "<group>";
 		};
-		D564D8E82BB4FE49008EB4EE /* BasicStudy */ = {
+		D564D8E82BB4FE49008EB4EE /* LayoutStudy */ = {
 			isa = PBXGroup;
 			children = (
 				D564D8DC2BB3E84D008EB4EE /* AboutOffSet.swift */,
 				D564D8E92BB5239C008EB4EE /* AboutPosition.swift */,
 				D564D8DE2BB3E873008EB4EE /* AboutPadding.swift */,
 				D564D8EB2BB552B5008EB4EE /* OffsetAndPosition.swift */,
-				D564D8ED2BB583B4008EB4EE /* AboutAnimation.swift */,
 			);
-			path = BasicStudy;
+			path = LayoutStudy;
 			sourceTree = "<group>";
 		};
 		D5A0DAA12BAFEBC7000CA06E = {
@@ -101,7 +110,9 @@
 				D5A0DAAD2BAFEBC7000CA06E /* SwiftUIAnimationApp.swift */,
 				D5A0DAAF2BAFEBC7000CA06E /* ContentView.swift */,
 				D5A0DAB12BAFEBC9000CA06E /* Assets.xcassets */,
-				D564D8E82BB4FE49008EB4EE /* BasicStudy */,
+				D5A62C262BD1107B00EFA70E /* EtcStudy */,
+				D564D8E82BB4FE49008EB4EE /* LayoutStudy */,
+				D5A62C252BD1106A00EFA70E /* AnimationStudy */,
 				D564D8E42BB4F30D008EB4EE /* WWDC */,
 				D5A0DABB2BAFEBCE000CA06E /* GeometryEffect */,
 				D5A0DAB32BAFEBC9000CA06E /* Preview Content */,
@@ -124,6 +135,26 @@
 				D5A0DABE2BAFF5F0000CA06E /* DragGesture_1.swift */,
 			);
 			path = GeometryEffect;
+			sourceTree = "<group>";
+		};
+		D5A62C252BD1106A00EFA70E /* AnimationStudy */ = {
+			isa = PBXGroup;
+			children = (
+				D564D8ED2BB583B4008EB4EE /* AboutAnimation.swift */,
+			);
+			path = AnimationStudy;
+			sourceTree = "<group>";
+		};
+		D5A62C262BD1107B00EFA70E /* EtcStudy */ = {
+			isa = PBXGroup;
+			children = (
+				D5A62C272BD1108D00EFA70E /* LifeCycle.swift */,
+				D5A62C292BD110A100EFA70E /* SecondLiftCycle.swift */,
+				D5A62C2B2BD11D7D00EFA70E /* ModalLifeCycle.swift */,
+				D5A62C2D2BD11EAF00EFA70E /* SecondModalLifyCycle.swift */,
+				D5A62C312BD136AF00EFA70E /* DestinationLifeCycle.swift */,
+			);
+			path = EtcStudy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,16 +227,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5A62C2C2BD11D7D00EFA70E /* ModalLifeCycle.swift in Sources */,
 				D564D8EA2BB5239C008EB4EE /* AboutPosition.swift in Sources */,
 				D5A0DABD2BAFEBE5000CA06E /* GeometryEffect_1.swift in Sources */,
 				D564D8DF2BB3E873008EB4EE /* AboutPadding.swift in Sources */,
+				D5A62C2A2BD110A100EFA70E /* SecondLiftCycle.swift in Sources */,
 				D5A0DAB02BAFEBC7000CA06E /* ContentView.swift in Sources */,
 				D5A0DAAE2BAFEBC7000CA06E /* SwiftUIAnimationApp.swift in Sources */,
+				D5A62C322BD136AF00EFA70E /* DestinationLifeCycle.swift in Sources */,
+				D5A62C2E2BD11EAF00EFA70E /* SecondModalLifyCycle.swift in Sources */,
 				D564D8E32BB3F1D0008EB4EE /* BasicLayout.swift in Sources */,
 				D5A0DABF2BAFF5F0000CA06E /* DragGesture_1.swift in Sources */,
 				D564D8EC2BB552B5008EB4EE /* OffsetAndPosition.swift in Sources */,
 				D564D8DD2BB3E84D008EB4EE /* AboutOffSet.swift in Sources */,
 				D564D8EE2BB583B4008EB4EE /* AboutAnimation.swift in Sources */,
+				D5A62C282BD1108D00EFA70E /* LifeCycle.swift in Sources */,
 				D564D8E72BB4F362008EB4EE /* BasicGraphic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
