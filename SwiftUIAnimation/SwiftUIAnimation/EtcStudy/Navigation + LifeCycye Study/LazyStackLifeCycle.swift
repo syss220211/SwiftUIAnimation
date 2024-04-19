@@ -8,12 +8,23 @@
 import SwiftUI
 
 struct LazyStackLifeCycle: View {
+    
+    let fruits = ["Apple", "Orange", "Banana"]
+    
     var body: some View {
         NavigationStack {
             ScrollView {
                 Text("첫 번째 화면입니다.")
                     .padding(.bottom, 30)
+                
                 VStack(spacing: 30) {
+                    
+                    ForEach(fruits, id: \.self) { fruit in
+                        NavigationLink(value: fruit) {
+                            Text(fruit)
+                        }
+                    }
+                    
                     ForEach(0..<10) { x in
                         // NavigationLink-value 를 사용해야 뷰가 lazy로 구현된다 (메모리 효율 상승)
                         NavigationLink(value: x) {
@@ -32,6 +43,10 @@ struct LazyStackLifeCycle: View {
             }
             .navigationDestination(for: Int.self, destination: { value in
                 StackSecondView(value: value)
+            })
+            .navigationDestination(for: String.self, destination: { value in
+                StringNavigationView(value: value)
+                Text("Another Screen \(value)")
             })
             .onAppear {
                 print("🔥 첫번째뷰 onAppear!!")
@@ -64,6 +79,20 @@ struct StackSecondView: View {
     }
 }
 
+
+struct StringNavigationView: View {
+    
+    private let value: String
+    
+    init(value: String) {
+        self.value = value
+        print("\(value)과일 초기화")
+    }
+    
+    var body: some View {
+        Text("\(value) is delicious!")
+    }
+}
 #Preview {
     LazyStackLifeCycle()
 }
