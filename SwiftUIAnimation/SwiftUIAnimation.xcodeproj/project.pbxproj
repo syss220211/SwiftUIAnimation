@@ -24,6 +24,7 @@
 		D5A62C2C2BD11D7D00EFA70E /* ModalLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A62C2B2BD11D7D00EFA70E /* ModalLifeCycle.swift */; };
 		D5A62C342BD166F600EFA70E /* LazyStackLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A62C332BD166F600EFA70E /* LazyStackLifeCycle.swift */; };
 		D5A62C372BD1F71700EFA70E /* NavigationPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A62C362BD1F71700EFA70E /* NavigationPath.swift */; };
+		D5A62C3A2BD209B500EFA70E /* PropertyWithView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A62C392BD209B500EFA70E /* PropertyWithView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		D5A62C2B2BD11D7D00EFA70E /* ModalLifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalLifeCycle.swift; sourceTree = "<group>"; };
 		D5A62C332BD166F600EFA70E /* LazyStackLifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStackLifeCycle.swift; sourceTree = "<group>"; };
 		D5A62C362BD1F71700EFA70E /* NavigationPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPath.swift; sourceTree = "<group>"; };
+		D5A62C392BD209B500EFA70E /* PropertyWithView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWithView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +148,7 @@
 		D5A62C262BD1107B00EFA70E /* EtcStudy */ = {
 			isa = PBXGroup;
 			children = (
+				D5A62C382BD2099E00EFA70E /* Property Wrappers */,
 				D5A62C352BD1F6CD00EFA70E /* Navigation + LifeCycye Study */,
 			);
 			path = EtcStudy;
@@ -160,6 +163,14 @@
 				D5A62C362BD1F71700EFA70E /* NavigationPath.swift */,
 			);
 			path = "Navigation + LifeCycye Study";
+			sourceTree = "<group>";
+		};
+		D5A62C382BD2099E00EFA70E /* Property Wrappers */ = {
+			isa = PBXGroup;
+			children = (
+				D5A62C392BD209B500EFA70E /* PropertyWithView.swift */,
+			);
+			path = "Property Wrappers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +246,7 @@
 				D5A62C2C2BD11D7D00EFA70E /* ModalLifeCycle.swift in Sources */,
 				D564D8EA2BB5239C008EB4EE /* AboutPosition.swift in Sources */,
 				D5A0DABD2BAFEBE5000CA06E /* GeometryEffect_1.swift in Sources */,
+				D5A62C3A2BD209B500EFA70E /* PropertyWithView.swift in Sources */,
 				D564D8DF2BB3E873008EB4EE /* AboutPadding.swift in Sources */,
 				D5A0DAB02BAFEBC7000CA06E /* ContentView.swift in Sources */,
 				D5A0DAAE2BAFEBC7000CA06E /* SwiftUIAnimationApp.swift in Sources */,

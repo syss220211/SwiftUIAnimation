@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct ModalLifeCycle: View {
+    
     @State private var isTapped = false
+    @State private var text: String = "안녕"
     
     var body: some View {
-        VStack {
+        VStack(spacing: 20) {
             Text("첫 화면입니다.")
+            Text(text)
             Text("모달 띄우기")
                 .onTapGesture {
                     isTapped.toggle()
@@ -26,6 +29,14 @@ struct ModalLifeCycle: View {
         }
         .onDisappear {
             print("🔥 첫번째 화면의 onDisappear!")
+        }
+        .task {
+            // View가 생성되지 전에 비동기 함수가 실행되는 부분일 뿐 Onappear보다 먼저 실행된다고 보장할 수 없음
+            print("🔥🔥 첫 번째화면 task 시작!")
+            DispatchQueue.main.asyncAfter(deadline: .now() + 5) {
+                self.text = "잘가"
+            }
+            print("🔥🔥 첫 번째화면 task 끝!")
         }
     }
 }
