@@ -14,6 +14,8 @@
 		D563D48C2BEC9ECA004227A9 /* BasicNavigationPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D563D48B2BEC9ECA004227A9 /* BasicNavigationPath.swift */; };
 		D563D48F2BECA1CE004227A9 /* BasicSecondNavigationPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D563D48E2BECA1CE004227A9 /* BasicSecondNavigationPath.swift */; };
 		D563D4912BECA1EB004227A9 /* NavigationPathData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D563D4902BECA1EB004227A9 /* NavigationPathData.swift */; };
+		D563D4942BECA664004227A9 /* UsingRouteExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D563D4932BECA664004227A9 /* UsingRouteExample.swift */; };
+		D563D4962BECA6DC004227A9 /* UsingRouteExampleViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D563D4952BECA6DC004227A9 /* UsingRouteExampleViews.swift */; };
 		D564D8DD2BB3E84D008EB4EE /* AboutOffSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D564D8DC2BB3E84D008EB4EE /* AboutOffSet.swift */; };
 		D564D8DF2BB3E873008EB4EE /* AboutPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D564D8DE2BB3E873008EB4EE /* AboutPadding.swift */; };
 		D564D8E32BB3F1D0008EB4EE /* BasicLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D564D8E22BB3F1CF008EB4EE /* BasicLayout.swift */; };
@@ -46,6 +48,8 @@
 		D563D48B2BEC9ECA004227A9 /* BasicNavigationPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicNavigationPath.swift; sourceTree = "<group>"; };
 		D563D48E2BECA1CE004227A9 /* BasicSecondNavigationPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicSecondNavigationPath.swift; sourceTree = "<group>"; };
 		D563D4902BECA1EB004227A9 /* NavigationPathData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPathData.swift; sourceTree = "<group>"; };
+		D563D4932BECA664004227A9 /* UsingRouteExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingRouteExample.swift; sourceTree = "<group>"; };
+		D563D4952BECA6DC004227A9 /* UsingRouteExampleViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingRouteExampleViews.swift; sourceTree = "<group>"; };
 		D564D8DC2BB3E84D008EB4EE /* AboutOffSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutOffSet.swift; sourceTree = "<group>"; };
 		D564D8DE2BB3E873008EB4EE /* AboutPadding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPadding.swift; sourceTree = "<group>"; };
 		D564D8E22BB3F1CF008EB4EE /* BasicLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicLayout.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 		D563D4922BECA3FD004227A9 /* AboutUsingRoute */ = {
 			isa = PBXGroup;
 			children = (
+				D563D4932BECA664004227A9 /* UsingRouteExample.swift */,
+				D563D4952BECA6DC004227A9 /* UsingRouteExampleViews.swift */,
 			);
 			path = AboutUsingRoute;
 			sourceTree = "<group>";
@@ -323,10 +329,12 @@
 				D5A0DABD2BAFEBE5000CA06E /* GeometryEffect_1.swift in Sources */,
 				D5A62C3A2BD209B500EFA70E /* PropertyWithView.swift in Sources */,
 				D564D8DF2BB3E873008EB4EE /* AboutPadding.swift in Sources */,
+				D563D4962BECA6DC004227A9 /* UsingRouteExampleViews.swift in Sources */,
 				D5A0DAB02BAFEBC7000CA06E /* ContentView.swift in Sources */,
 				D56246512BEB128D008EAF66 /* NavigationStackMainView.swift in Sources */,
 				D5CBEE312BEB48E3007190C7 /* GobalNavigationStack.swift in Sources */,
 				D5A0DAAE2BAFEBC7000CA06E /* SwiftUIAnimationApp.swift in Sources */,
+				D563D4942BECA664004227A9 /* UsingRouteExample.swift in Sources */,
 				D5CBEE2B2BEB1BE4007190C7 /* NavigationStackBinding.swift in Sources */,
 				D564D8E32BB3F1D0008EB4EE /* BasicLayout.swift in Sources */,
 				D563D48F2BECA1CE004227A9 /* BasicSecondNavigationPath.swift in Sources */,
