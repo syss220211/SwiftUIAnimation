@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct NavigationInitChecking: View {
-    let fruits = ["Apple", "Orange", "Banana"]
     
     var body: some View {
         NavigationStack {
@@ -17,6 +16,9 @@ struct NavigationInitChecking: View {
                     NavigationLink(value: x) {
                         Text("🍀 데이터 타입을 지정하는 경우(value) \(x) 번째")
                             .modifier(TTModifier(fontColor: .white, background: .black))
+                            .navigationDestination(for: Int.self, destination: { value in
+                                FView(value: value)
+                            })
                     }
                 }
                 
@@ -29,9 +31,6 @@ struct NavigationInitChecking: View {
                     }
                 }
             }
-            .navigationDestination(for: Int.self, destination: { value in
-                FView(value: value)
-            })
         }
     }
 }

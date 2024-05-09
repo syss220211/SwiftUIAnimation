@@ -36,10 +36,6 @@ struct NavigationDestinationExample: View {
             .navigationDestination(for: Person.self) { value in
                 NavigationStackPersonView(person: value)
             }
-            // 두번째로 건거에는 걸리지 않음, 무조건 첫번째 destination에만 걸리는 듯함
-            .navigationDestination(for: Person.self) { value in
-                AnotherPersonView(person: value)
-            }
             .listStyle(.plain)
         }
     }
