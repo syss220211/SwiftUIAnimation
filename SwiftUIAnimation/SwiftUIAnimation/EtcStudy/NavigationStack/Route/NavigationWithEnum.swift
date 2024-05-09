@@ -18,7 +18,7 @@ enum NavigationEnumFirstRoute: Hashable {
     case mypage
 }
 
-struct NavigationEnumFirst: View {
+struct NavigationWithEnum: View {
     @State private var routes: [NavigationEnumFirstRoute] = []
     
     var body: some View {
@@ -52,5 +52,5 @@ struct NavigationEnumFirst: View {
 }
 
 #Preview {
-    NavigationEnumFirst()
+    NavigationWithEnum()
 }

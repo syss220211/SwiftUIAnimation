@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct NavigationPath: View {
+struct NavigationPathStudy: View {
     
     private let fruits = ["Apple", "Orange", "Banana"]
     @State private var stackPath: [String] = []
@@ -49,5 +49,5 @@ struct NavigationPath: View {
 }
 
 #Preview {
-    NavigationPath()
+    NavigationPathStudy()
 }

@@ -28,6 +28,7 @@ struct NavigationInitChecking: View {
                     } label: {
                         Text("🔥 데이터 타입 지정 없는 경우(destination) \(x)번째")
                             .modifier(TTModifier(fontColor: .black, background: .yellow))
+                        // 화면을 이동하지 않아도 init이 되어버림 -> 데이터 연결이 없는 destination은 사용을 지양하기
                     }
                 }
             }

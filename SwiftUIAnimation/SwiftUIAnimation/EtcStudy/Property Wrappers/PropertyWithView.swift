@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// https://www.youtube.com/watch?v=-yjKAb0Pj60
 struct FruitModel {
     let id = UUID().uuidString
     let name: String
@@ -15,7 +16,6 @@ struct FruitModel {
 
 class PropertyWithViewModel: ObservableObject {
     @Published var fruitArray: [FruitModel] = []
-    
     
     func getFruits() {
         let fruit1 = FruitModel(name: "Orange", count: 1)
