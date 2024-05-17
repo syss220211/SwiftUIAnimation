@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		D50E48642BEE3E15000F03B3 /* AboutStateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E48632BEE3E15000F03B3 /* AboutStateObject.swift */; };
 		D50E48662BEE40BA000F03B3 /* BeforeUsingStateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E48652BEE40BA000F03B3 /* BeforeUsingStateObject.swift */; };
+		D50E48682BEE47E0000F03B3 /* AboutEnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E48672BEE47E0000F03B3 /* AboutEnvironmentObject.swift */; };
+		D554AD252BF7854700EEFFC8 /* AboutZStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D554AD242BF7854700EEFFC8 /* AboutZStack.swift */; };
+		D554AD272BF7865100EEFFC8 /* OverlayExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D554AD262BF7865100EEFFC8 /* OverlayExample.swift */; };
+		D554AD292BF78BF300EEFFC8 /* ZStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D554AD282BF78BF300EEFFC8 /* ZStackExample.swift */; };
+		D554AD2B2BF790BF00EEFFC8 /* BasicModifierStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D554AD2A2BF790BF00EEFFC8 /* BasicModifierStudy.swift */; };
 		D56246452BEA4843008EAF66 /* NavigationStackFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56246442BEA4843008EAF66 /* NavigationStackFirstView.swift */; };
 		D562464D2BEA5102008EAF66 /* NavigationDestinationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D562464C2BEA5102008EAF66 /* NavigationDestinationExample.swift */; };
 		D562464F2BEB126D008EAF66 /* NavigationStackSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D562464E2BEB126D008EAF66 /* NavigationStackSecondView.swift */; };
@@ -39,11 +44,17 @@
 		D5CBEE2F2BEB2360007190C7 /* NavigationWithEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBEE2E2BEB2360007190C7 /* NavigationWithEnum.swift */; };
 		D5CBEE312BEB48E3007190C7 /* GobalNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBEE302BEB48E3007190C7 /* GobalNavigationStack.swift */; };
 		D5CBEE332BEB6C00007190C7 /* NavigationInitChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBEE322BEB6C00007190C7 /* NavigationInitChecking.swift */; };
+		D5DB6F2D2BF797410062DA6B /* ZStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DB6F2C2BF797410062DA6B /* ZStackModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D50E48632BEE3E15000F03B3 /* AboutStateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutStateObject.swift; sourceTree = "<group>"; };
 		D50E48652BEE40BA000F03B3 /* BeforeUsingStateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeUsingStateObject.swift; sourceTree = "<group>"; };
+		D50E48672BEE47E0000F03B3 /* AboutEnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutEnvironmentObject.swift; sourceTree = "<group>"; };
+		D554AD242BF7854700EEFFC8 /* AboutZStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutZStack.swift; sourceTree = "<group>"; };
+		D554AD262BF7865100EEFFC8 /* OverlayExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayExample.swift; sourceTree = "<group>"; };
+		D554AD282BF78BF300EEFFC8 /* ZStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackExample.swift; sourceTree = "<group>"; };
+		D554AD2A2BF790BF00EEFFC8 /* BasicModifierStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicModifierStudy.swift; sourceTree = "<group>"; };
 		D56246442BEA4843008EAF66 /* NavigationStackFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackFirstView.swift; sourceTree = "<group>"; };
 		D562464C2BEA5102008EAF66 /* NavigationDestinationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestinationExample.swift; sourceTree = "<group>"; };
 		D562464E2BEB126D008EAF66 /* NavigationStackSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackSecondView.swift; sourceTree = "<group>"; };
@@ -75,6 +86,7 @@
 		D5CBEE2E2BEB2360007190C7 /* NavigationWithEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWithEnum.swift; sourceTree = "<group>"; };
 		D5CBEE302BEB48E3007190C7 /* GobalNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GobalNavigationStack.swift; sourceTree = "<group>"; };
 		D5CBEE322BEB6C00007190C7 /* NavigationInitChecking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationInitChecking.swift; sourceTree = "<group>"; };
+		D5DB6F2C2BF797410062DA6B /* ZStackModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +100,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D554AD222BF7853200EEFFC8 /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				D554AD242BF7854700EEFFC8 /* AboutZStack.swift */,
+				D554AD262BF7865100EEFFC8 /* OverlayExample.swift */,
+				D554AD282BF78BF300EEFFC8 /* ZStackExample.swift */,
+				D5DB6F2C2BF797410062DA6B /* ZStackModifier.swift */,
+			);
+			path = Stack;
+			sourceTree = "<group>";
+		};
 		D56246432BEA480A008EAF66 /* NavigationStack */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,7 +193,6 @@
 				D564D8E82BB4FE49008EB4EE /* LayoutStudy */,
 				D5A62C252BD1106A00EFA70E /* AnimationStudy */,
 				D564D8E42BB4F30D008EB4EE /* WWDC */,
-				D5A0DABB2BAFEBCE000CA06E /* GeometryEffect */,
 				D5A0DAB32BAFEBC9000CA06E /* Preview Content */,
 			);
 			path = SwiftUIAnimation;
@@ -196,6 +218,7 @@
 		D5A62C252BD1106A00EFA70E /* AnimationStudy */ = {
 			isa = PBXGroup;
 			children = (
+				D5A0DABB2BAFEBCE000CA06E /* GeometryEffect */,
 				D564D8ED2BB583B4008EB4EE /* AboutAnimation.swift */,
 			);
 			path = AnimationStudy;
@@ -204,14 +227,16 @@
 		D5A62C262BD1107B00EFA70E /* EtcStudy */ = {
 			isa = PBXGroup;
 			children = (
+				D5DB6F2B2BF7970D0062DA6B /* Modifier */,
+				D554AD222BF7853200EEFFC8 /* Stack */,
 				D56246432BEA480A008EAF66 /* NavigationStack */,
 				D5A62C382BD2099E00EFA70E /* Property Wrappers */,
-				D5A62C352BD1F6CD00EFA70E /* Navigation + LifeCycye Study */,
+				D5A62C352BD1F6CD00EFA70E /* LifeCycye */,
 			);
 			path = EtcStudy;
 			sourceTree = "<group>";
 		};
-		D5A62C352BD1F6CD00EFA70E /* Navigation + LifeCycye Study */ = {
+		D5A62C352BD1F6CD00EFA70E /* LifeCycye */ = {
 			isa = PBXGroup;
 			children = (
 				D5A62C272BD1108D00EFA70E /* LifeCycle.swift */,
@@ -219,12 +244,13 @@
 				D5A62C332BD166F600EFA70E /* LazyStackLifeCycle.swift */,
 				D5A62C362BD1F71700EFA70E /* NavigationPathStudy.swift */,
 			);
-			path = "Navigation + LifeCycye Study";
+			path = LifeCycye;
 			sourceTree = "<group>";
 		};
 		D5A62C382BD2099E00EFA70E /* Property Wrappers */ = {
 			isa = PBXGroup;
 			children = (
+				D50E48672BEE47E0000F03B3 /* AboutEnvironmentObject.swift */,
 				D50E48632BEE3E15000F03B3 /* AboutStateObject.swift */,
 				D50E48652BEE40BA000F03B3 /* BeforeUsingStateObject.swift */,
 			);
@@ -253,6 +279,14 @@
 				D5CBEE2A2BEB1BE4007190C7 /* NavigationStackBinding.swift */,
 			);
 			path = Basic;
+			sourceTree = "<group>";
+		};
+		D5DB6F2B2BF7970D0062DA6B /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				D554AD2A2BF790BF00EEFFC8 /* BasicModifierStudy.swift */,
+			);
+			path = Modifier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,6 +366,7 @@
 				D5A0DABD2BAFEBE5000CA06E /* GeometryEffect_1.swift in Sources */,
 				D564D8DF2BB3E873008EB4EE /* AboutPadding.swift in Sources */,
 				D563D4962BECA6DC004227A9 /* UsingRouteExampleViews.swift in Sources */,
+				D554AD2B2BF790BF00EEFFC8 /* BasicModifierStudy.swift in Sources */,
 				D5A0DAB02BAFEBC7000CA06E /* ContentView.swift in Sources */,
 				D56246512BEB128D008EAF66 /* NavigationStackMainView.swift in Sources */,
 				D50E48662BEE40BA000F03B3 /* BeforeUsingStateObject.swift in Sources */,
@@ -348,12 +383,17 @@
 				D564D8EC2BB552B5008EB4EE /* OffsetAndPosition.swift in Sources */,
 				D5A62C372BD1F71700EFA70E /* NavigationPathStudy.swift in Sources */,
 				D564D8DD2BB3E84D008EB4EE /* AboutOffSet.swift in Sources */,
+				D554AD252BF7854700EEFFC8 /* AboutZStack.swift in Sources */,
 				D564D8EE2BB583B4008EB4EE /* AboutAnimation.swift in Sources */,
 				D563D48C2BEC9ECA004227A9 /* BasicNavigationPath.swift in Sources */,
+				D554AD292BF78BF300EEFFC8 /* ZStackExample.swift in Sources */,
 				D5A62C282BD1108D00EFA70E /* LifeCycle.swift in Sources */,
+				D50E48682BEE47E0000F03B3 /* AboutEnvironmentObject.swift in Sources */,
+				D554AD272BF7865100EEFFC8 /* OverlayExample.swift in Sources */,
 				D563D4912BECA1EB004227A9 /* NavigationPathData.swift in Sources */,
 				D564D8E72BB4F362008EB4EE /* BasicGraphic.swift in Sources */,
 				D5A62C342BD166F600EFA70E /* LazyStackLifeCycle.swift in Sources */,
+				D5DB6F2D2BF797410062DA6B /* ZStackModifier.swift in Sources */,
 				D5CBEE332BEB6C00007190C7 /* NavigationInitChecking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
