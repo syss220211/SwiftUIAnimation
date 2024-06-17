@@ -30,6 +30,10 @@
 		D564D8EA2BB5239C008EB4EE /* AboutPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D564D8E92BB5239C008EB4EE /* AboutPosition.swift */; };
 		D564D8EC2BB552B5008EB4EE /* OffsetAndPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D564D8EB2BB552B5008EB4EE /* OffsetAndPosition.swift */; };
 		D564D8EE2BB583B4008EB4EE /* AboutAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D564D8ED2BB583B4008EB4EE /* AboutAnimation.swift */; };
+		D56577022C205852008661D0 /* TabViewMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56577012C205852008661D0 /* TabViewMain.swift */; };
+		D56577042C20585D008661D0 /* NaviTabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56577032C20585D008661D0 /* NaviTabViews.swift */; };
+		D565770A2C205C7E008661D0 /* TabViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56577092C205C7E008661D0 /* TabViewRouter.swift */; };
+		D565770C2C205D5E008661D0 /* TabRouterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565770B2C205D5E008661D0 /* TabRouterView.swift */; };
 		D5A0DAAE2BAFEBC7000CA06E /* SwiftUIAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A0DAAD2BAFEBC7000CA06E /* SwiftUIAnimationApp.swift */; };
 		D5A0DAB02BAFEBC7000CA06E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A0DAAF2BAFEBC7000CA06E /* ContentView.swift */; };
 		D5A0DAB22BAFEBC9000CA06E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A0DAB12BAFEBC9000CA06E /* Assets.xcassets */; };
@@ -45,6 +49,9 @@
 		D5CBEE312BEB48E3007190C7 /* GobalNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBEE302BEB48E3007190C7 /* GobalNavigationStack.swift */; };
 		D5CBEE332BEB6C00007190C7 /* NavigationInitChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBEE322BEB6C00007190C7 /* NavigationInitChecking.swift */; };
 		D5DB6F2D2BF797410062DA6B /* ZStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DB6F2C2BF797410062DA6B /* ZStackModifier.swift */; };
+		D5E568D62C1033330040B1B7 /* EtcView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E568D52C1033330040B1B7 /* EtcView1.swift */; };
+		D5E568D82C1036EE0040B1B7 /* EtcView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E568D72C1036EE0040B1B7 /* EtcView2.swift */; };
+		D5E568DA2C1040780040B1B7 /* EtcView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E568D92C1040780040B1B7 /* EtcView3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +78,10 @@
 		D564D8E92BB5239C008EB4EE /* AboutPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutPosition.swift; sourceTree = "<group>"; };
 		D564D8EB2BB552B5008EB4EE /* OffsetAndPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffsetAndPosition.swift; sourceTree = "<group>"; };
 		D564D8ED2BB583B4008EB4EE /* AboutAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutAnimation.swift; sourceTree = "<group>"; };
+		D56577012C205852008661D0 /* TabViewMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewMain.swift; sourceTree = "<group>"; };
+		D56577032C20585D008661D0 /* NaviTabViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviTabViews.swift; sourceTree = "<group>"; };
+		D56577092C205C7E008661D0 /* TabViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewRouter.swift; sourceTree = "<group>"; };
+		D565770B2C205D5E008661D0 /* TabRouterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabRouterView.swift; sourceTree = "<group>"; };
 		D5A0DAAA2BAFEBC7000CA06E /* SwiftUIAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A0DAAD2BAFEBC7000CA06E /* SwiftUIAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationApp.swift; sourceTree = "<group>"; };
 		D5A0DAAF2BAFEBC7000CA06E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,6 +98,9 @@
 		D5CBEE302BEB48E3007190C7 /* GobalNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GobalNavigationStack.swift; sourceTree = "<group>"; };
 		D5CBEE322BEB6C00007190C7 /* NavigationInitChecking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationInitChecking.swift; sourceTree = "<group>"; };
 		D5DB6F2C2BF797410062DA6B /* ZStackModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackModifier.swift; sourceTree = "<group>"; };
+		D5E568D52C1033330040B1B7 /* EtcView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcView1.swift; sourceTree = "<group>"; };
+		D5E568D72C1036EE0040B1B7 /* EtcView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcView2.swift; sourceTree = "<group>"; };
+		D5E568D92C1040780040B1B7 /* EtcView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,6 +181,17 @@
 			path = LayoutStudy;
 			sourceTree = "<group>";
 		};
+		D56577002C205842008661D0 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				D56577012C205852008661D0 /* TabViewMain.swift */,
+				D56577032C20585D008661D0 /* NaviTabViews.swift */,
+				D56577092C205C7E008661D0 /* TabViewRouter.swift */,
+				D565770B2C205D5E008661D0 /* TabRouterView.swift */,
+			);
+			path = TabView;
+			sourceTree = "<group>";
+		};
 		D5A0DAA12BAFEBC7000CA06E = {
 			isa = PBXGroup;
 			children = (
@@ -227,6 +252,8 @@
 		D5A62C262BD1107B00EFA70E /* EtcStudy */ = {
 			isa = PBXGroup;
 			children = (
+				D56577002C205842008661D0 /* TabView */,
+				D5E568D42C1033250040B1B7 /* Etc */,
 				D5DB6F2B2BF7970D0062DA6B /* Modifier */,
 				D554AD222BF7853200EEFFC8 /* Stack */,
 				D56246432BEA480A008EAF66 /* NavigationStack */,
@@ -287,6 +314,16 @@
 				D554AD2A2BF790BF00EEFFC8 /* BasicModifierStudy.swift */,
 			);
 			path = Modifier;
+			sourceTree = "<group>";
+		};
+		D5E568D42C1033250040B1B7 /* Etc */ = {
+			isa = PBXGroup;
+			children = (
+				D5E568D52C1033330040B1B7 /* EtcView1.swift */,
+				D5E568D72C1036EE0040B1B7 /* EtcView2.swift */,
+				D5E568D92C1040780040B1B7 /* EtcView3.swift */,
+			);
+			path = Etc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -359,8 +396,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5E568D62C1033330040B1B7 /* EtcView1.swift in Sources */,
 				D5A62C2C2BD11D7D00EFA70E /* ModalLifeCycle.swift in Sources */,
 				D5CBEE2F2BEB2360007190C7 /* NavigationWithEnum.swift in Sources */,
+				D565770C2C205D5E008661D0 /* TabRouterView.swift in Sources */,
+				D56577042C20585D008661D0 /* NaviTabViews.swift in Sources */,
 				D564D8EA2BB5239C008EB4EE /* AboutPosition.swift in Sources */,
 				D56246452BEA4843008EAF66 /* NavigationStackFirstView.swift in Sources */,
 				D5A0DABD2BAFEBE5000CA06E /* GeometryEffect_1.swift in Sources */,
@@ -370,11 +410,14 @@
 				D5A0DAB02BAFEBC7000CA06E /* ContentView.swift in Sources */,
 				D56246512BEB128D008EAF66 /* NavigationStackMainView.swift in Sources */,
 				D50E48662BEE40BA000F03B3 /* BeforeUsingStateObject.swift in Sources */,
+				D5E568DA2C1040780040B1B7 /* EtcView3.swift in Sources */,
 				D5CBEE312BEB48E3007190C7 /* GobalNavigationStack.swift in Sources */,
 				D5A0DAAE2BAFEBC7000CA06E /* SwiftUIAnimationApp.swift in Sources */,
+				D5E568D82C1036EE0040B1B7 /* EtcView2.swift in Sources */,
 				D563D4942BECA664004227A9 /* UsingRouteExample.swift in Sources */,
 				D5CBEE2B2BEB1BE4007190C7 /* NavigationStackBinding.swift in Sources */,
 				D50E48642BEE3E15000F03B3 /* AboutStateObject.swift in Sources */,
+				D56577022C205852008661D0 /* TabViewMain.swift in Sources */,
 				D564D8E32BB3F1D0008EB4EE /* BasicLayout.swift in Sources */,
 				D563D48F2BECA1CE004227A9 /* BasicSecondNavigationPath.swift in Sources */,
 				D5A0DABF2BAFF5F0000CA06E /* DragGesture_1.swift in Sources */,
@@ -393,6 +436,7 @@
 				D563D4912BECA1EB004227A9 /* NavigationPathData.swift in Sources */,
 				D564D8E72BB4F362008EB4EE /* BasicGraphic.swift in Sources */,
 				D5A62C342BD166F600EFA70E /* LazyStackLifeCycle.swift in Sources */,
+				D565770A2C205C7E008661D0 /* TabViewRouter.swift in Sources */,
 				D5DB6F2D2BF797410062DA6B /* ZStackModifier.swift in Sources */,
 				D5CBEE332BEB6C00007190C7 /* NavigationInitChecking.swift in Sources */,
 			);
