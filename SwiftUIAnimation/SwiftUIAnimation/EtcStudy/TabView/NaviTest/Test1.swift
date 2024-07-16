@@ -1,45 +1,22 @@
 //
-//  TabViewMain.swift
+//  Test1.swift
 //  SwiftUIAnimation
 //
-//  Created by 박서연 on 2024/06/17.
+//  Created by 박서연 on 2024/06/18.
 //
 
 import SwiftUI
 
-enum TabInfoTest: String, CaseIterable {
-    case one = "one"
-    case two = "two"
-    
-    @ViewBuilder
-    var view: some View {
-        switch self {
-        case .one:
-            TabView1()
-        case .two:
-            TabView2()
-        }
-    }
-    
-    var image: String {
-        switch self {
-        case .one:
-            return "heart.fill"
-        case .two:
-            return "star.fill"
-        }
-    }
-}
-
-struct TabViewMain: View {
-    
+struct Test1: View {
     @State private var tab: TabInfoTest = .one
     
     var body: some View {
         VStack {
             TabView(selection: $tab) {
                 ForEach(TabInfoTest.allCases, id: \.self) { tab in
-                    tab.view
+                    TabRouterView{
+                        tab.view
+                    }
                 }
             }
             .overlay {
@@ -67,5 +44,5 @@ struct TabViewMain: View {
 }
 
 #Preview {
-    TabViewMain()
+    Test1()
 }

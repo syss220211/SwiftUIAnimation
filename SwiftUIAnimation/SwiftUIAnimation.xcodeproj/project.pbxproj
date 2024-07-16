@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D50780B52C46C92C00F8143B /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50780B42C46C92C00F8143B /* CarouselView.swift */; };
+		D50780B72C46F97000F8143B /* CarouselNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50780B62C46F97000F8143B /* CarouselNextView.swift */; };
 		D50E48642BEE3E15000F03B3 /* AboutStateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E48632BEE3E15000F03B3 /* AboutStateObject.swift */; };
 		D50E48662BEE40BA000F03B3 /* BeforeUsingStateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E48652BEE40BA000F03B3 /* BeforeUsingStateObject.swift */; };
 		D50E48682BEE47E0000F03B3 /* AboutEnvironmentObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50E48672BEE47E0000F03B3 /* AboutEnvironmentObject.swift */; };
@@ -14,6 +16,7 @@
 		D554AD272BF7865100EEFFC8 /* OverlayExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D554AD262BF7865100EEFFC8 /* OverlayExample.swift */; };
 		D554AD292BF78BF300EEFFC8 /* ZStackExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D554AD282BF78BF300EEFFC8 /* ZStackExample.swift */; };
 		D554AD2B2BF790BF00EEFFC8 /* BasicModifierStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D554AD2A2BF790BF00EEFFC8 /* BasicModifierStudy.swift */; };
+		D55A235D2C452E6200A611E3 /* CarouselSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55A235C2C452E6200A611E3 /* CarouselSecondView.swift */; };
 		D56246452BEA4843008EAF66 /* NavigationStackFirstView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56246442BEA4843008EAF66 /* NavigationStackFirstView.swift */; };
 		D562464D2BEA5102008EAF66 /* NavigationDestinationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D562464C2BEA5102008EAF66 /* NavigationDestinationExample.swift */; };
 		D562464F2BEB126D008EAF66 /* NavigationStackSecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D562464E2BEB126D008EAF66 /* NavigationStackSecondView.swift */; };
@@ -34,6 +37,8 @@
 		D56577042C20585D008661D0 /* NaviTabViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56577032C20585D008661D0 /* NaviTabViews.swift */; };
 		D565770A2C205C7E008661D0 /* TabViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56577092C205C7E008661D0 /* TabViewRouter.swift */; };
 		D565770C2C205D5E008661D0 /* TabRouterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565770B2C205D5E008661D0 /* TabRouterView.swift */; };
+		D56577112C209C7C008661D0 /* ShadowStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56577102C209C7C008661D0 /* ShadowStudy.swift */; };
+		D565771F2C216E95008661D0 /* Test1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D565771E2C216E95008661D0 /* Test1.swift */; };
 		D5A0DAAE2BAFEBC7000CA06E /* SwiftUIAnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A0DAAD2BAFEBC7000CA06E /* SwiftUIAnimationApp.swift */; };
 		D5A0DAB02BAFEBC7000CA06E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A0DAAF2BAFEBC7000CA06E /* ContentView.swift */; };
 		D5A0DAB22BAFEBC9000CA06E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A0DAB12BAFEBC9000CA06E /* Assets.xcassets */; };
@@ -48,13 +53,15 @@
 		D5CBEE2F2BEB2360007190C7 /* NavigationWithEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBEE2E2BEB2360007190C7 /* NavigationWithEnum.swift */; };
 		D5CBEE312BEB48E3007190C7 /* GobalNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBEE302BEB48E3007190C7 /* GobalNavigationStack.swift */; };
 		D5CBEE332BEB6C00007190C7 /* NavigationInitChecking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBEE322BEB6C00007190C7 /* NavigationInitChecking.swift */; };
+		D5CC334F2C4427C100140BB2 /* SheetTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC334E2C4427C100140BB2 /* SheetTest.swift */; };
+		D5CC33522C44FF5C00140BB2 /* CarouselType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC33512C44FF5C00140BB2 /* CarouselType.swift */; };
+		D5CC33542C45211D00140BB2 /* CarouselOffetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC33532C45211D00140BB2 /* CarouselOffetView.swift */; };
 		D5DB6F2D2BF797410062DA6B /* ZStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DB6F2C2BF797410062DA6B /* ZStackModifier.swift */; };
-		D5E568D62C1033330040B1B7 /* EtcView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E568D52C1033330040B1B7 /* EtcView1.swift */; };
-		D5E568D82C1036EE0040B1B7 /* EtcView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E568D72C1036EE0040B1B7 /* EtcView2.swift */; };
-		D5E568DA2C1040780040B1B7 /* EtcView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E568D92C1040780040B1B7 /* EtcView3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D50780B42C46C92C00F8143B /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		D50780B62C46F97000F8143B /* CarouselNextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselNextView.swift; sourceTree = "<group>"; };
 		D50E48632BEE3E15000F03B3 /* AboutStateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutStateObject.swift; sourceTree = "<group>"; };
 		D50E48652BEE40BA000F03B3 /* BeforeUsingStateObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeUsingStateObject.swift; sourceTree = "<group>"; };
 		D50E48672BEE47E0000F03B3 /* AboutEnvironmentObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutEnvironmentObject.swift; sourceTree = "<group>"; };
@@ -62,6 +69,7 @@
 		D554AD262BF7865100EEFFC8 /* OverlayExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayExample.swift; sourceTree = "<group>"; };
 		D554AD282BF78BF300EEFFC8 /* ZStackExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackExample.swift; sourceTree = "<group>"; };
 		D554AD2A2BF790BF00EEFFC8 /* BasicModifierStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicModifierStudy.swift; sourceTree = "<group>"; };
+		D55A235C2C452E6200A611E3 /* CarouselSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselSecondView.swift; sourceTree = "<group>"; };
 		D56246442BEA4843008EAF66 /* NavigationStackFirstView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackFirstView.swift; sourceTree = "<group>"; };
 		D562464C2BEA5102008EAF66 /* NavigationDestinationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDestinationExample.swift; sourceTree = "<group>"; };
 		D562464E2BEB126D008EAF66 /* NavigationStackSecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackSecondView.swift; sourceTree = "<group>"; };
@@ -82,6 +90,8 @@
 		D56577032C20585D008661D0 /* NaviTabViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaviTabViews.swift; sourceTree = "<group>"; };
 		D56577092C205C7E008661D0 /* TabViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewRouter.swift; sourceTree = "<group>"; };
 		D565770B2C205D5E008661D0 /* TabRouterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabRouterView.swift; sourceTree = "<group>"; };
+		D56577102C209C7C008661D0 /* ShadowStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowStudy.swift; sourceTree = "<group>"; };
+		D565771E2C216E95008661D0 /* Test1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test1.swift; sourceTree = "<group>"; };
 		D5A0DAAA2BAFEBC7000CA06E /* SwiftUIAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A0DAAD2BAFEBC7000CA06E /* SwiftUIAnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAnimationApp.swift; sourceTree = "<group>"; };
 		D5A0DAAF2BAFEBC7000CA06E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -97,10 +107,10 @@
 		D5CBEE2E2BEB2360007190C7 /* NavigationWithEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWithEnum.swift; sourceTree = "<group>"; };
 		D5CBEE302BEB48E3007190C7 /* GobalNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GobalNavigationStack.swift; sourceTree = "<group>"; };
 		D5CBEE322BEB6C00007190C7 /* NavigationInitChecking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationInitChecking.swift; sourceTree = "<group>"; };
+		D5CC334E2C4427C100140BB2 /* SheetTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetTest.swift; sourceTree = "<group>"; };
+		D5CC33512C44FF5C00140BB2 /* CarouselType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselType.swift; sourceTree = "<group>"; };
+		D5CC33532C45211D00140BB2 /* CarouselOffetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselOffetView.swift; sourceTree = "<group>"; };
 		D5DB6F2C2BF797410062DA6B /* ZStackModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackModifier.swift; sourceTree = "<group>"; };
-		D5E568D52C1033330040B1B7 /* EtcView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcView1.swift; sourceTree = "<group>"; };
-		D5E568D72C1036EE0040B1B7 /* EtcView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcView2.swift; sourceTree = "<group>"; };
-		D5E568D92C1040780040B1B7 /* EtcView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtcView3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,12 +194,29 @@
 		D56577002C205842008661D0 /* TabView */ = {
 			isa = PBXGroup;
 			children = (
+				D565771D2C216E88008661D0 /* NaviTest */,
 				D56577012C205852008661D0 /* TabViewMain.swift */,
 				D56577032C20585D008661D0 /* NaviTabViews.swift */,
 				D56577092C205C7E008661D0 /* TabViewRouter.swift */,
 				D565770B2C205D5E008661D0 /* TabRouterView.swift */,
 			);
 			path = TabView;
+			sourceTree = "<group>";
+		};
+		D565770F2C209C71008661D0 /* Shadow */ = {
+			isa = PBXGroup;
+			children = (
+				D56577102C209C7C008661D0 /* ShadowStudy.swift */,
+			);
+			path = Shadow;
+			sourceTree = "<group>";
+		};
+		D565771D2C216E88008661D0 /* NaviTest */ = {
+			isa = PBXGroup;
+			children = (
+				D565771E2C216E95008661D0 /* Test1.swift */,
+			);
+			path = NaviTest;
 			sourceTree = "<group>";
 		};
 		D5A0DAA12BAFEBC7000CA06E = {
@@ -243,6 +270,7 @@
 		D5A62C252BD1106A00EFA70E /* AnimationStudy */ = {
 			isa = PBXGroup;
 			children = (
+				D5CC33502C44FF4A00140BB2 /* Carousel */,
 				D5A0DABB2BAFEBCE000CA06E /* GeometryEffect */,
 				D564D8ED2BB583B4008EB4EE /* AboutAnimation.swift */,
 			);
@@ -252,8 +280,9 @@
 		D5A62C262BD1107B00EFA70E /* EtcStudy */ = {
 			isa = PBXGroup;
 			children = (
+				D565770F2C209C71008661D0 /* Shadow */,
 				D56577002C205842008661D0 /* TabView */,
-				D5E568D42C1033250040B1B7 /* Etc */,
+				D5E568D42C1033250040B1B7 /* Sheet */,
 				D5DB6F2B2BF7970D0062DA6B /* Modifier */,
 				D554AD222BF7853200EEFFC8 /* Stack */,
 				D56246432BEA480A008EAF66 /* NavigationStack */,
@@ -308,6 +337,18 @@
 			path = Basic;
 			sourceTree = "<group>";
 		};
+		D5CC33502C44FF4A00140BB2 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				D5CC33512C44FF5C00140BB2 /* CarouselType.swift */,
+				D5CC33532C45211D00140BB2 /* CarouselOffetView.swift */,
+				D50780B42C46C92C00F8143B /* CarouselView.swift */,
+				D55A235C2C452E6200A611E3 /* CarouselSecondView.swift */,
+				D50780B62C46F97000F8143B /* CarouselNextView.swift */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
 		D5DB6F2B2BF7970D0062DA6B /* Modifier */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,14 +357,12 @@
 			path = Modifier;
 			sourceTree = "<group>";
 		};
-		D5E568D42C1033250040B1B7 /* Etc */ = {
+		D5E568D42C1033250040B1B7 /* Sheet */ = {
 			isa = PBXGroup;
 			children = (
-				D5E568D52C1033330040B1B7 /* EtcView1.swift */,
-				D5E568D72C1036EE0040B1B7 /* EtcView2.swift */,
-				D5E568D92C1040780040B1B7 /* EtcView3.swift */,
+				D5CC334E2C4427C100140BB2 /* SheetTest.swift */,
 			);
-			path = Etc;
+			path = Sheet;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -396,34 +435,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5E568D62C1033330040B1B7 /* EtcView1.swift in Sources */,
 				D5A62C2C2BD11D7D00EFA70E /* ModalLifeCycle.swift in Sources */,
+				D50780B52C46C92C00F8143B /* CarouselView.swift in Sources */,
 				D5CBEE2F2BEB2360007190C7 /* NavigationWithEnum.swift in Sources */,
 				D565770C2C205D5E008661D0 /* TabRouterView.swift in Sources */,
 				D56577042C20585D008661D0 /* NaviTabViews.swift in Sources */,
 				D564D8EA2BB5239C008EB4EE /* AboutPosition.swift in Sources */,
 				D56246452BEA4843008EAF66 /* NavigationStackFirstView.swift in Sources */,
+				D56577112C209C7C008661D0 /* ShadowStudy.swift in Sources */,
 				D5A0DABD2BAFEBE5000CA06E /* GeometryEffect_1.swift in Sources */,
 				D564D8DF2BB3E873008EB4EE /* AboutPadding.swift in Sources */,
 				D563D4962BECA6DC004227A9 /* UsingRouteExampleViews.swift in Sources */,
 				D554AD2B2BF790BF00EEFFC8 /* BasicModifierStudy.swift in Sources */,
+				D55A235D2C452E6200A611E3 /* CarouselSecondView.swift in Sources */,
 				D5A0DAB02BAFEBC7000CA06E /* ContentView.swift in Sources */,
 				D56246512BEB128D008EAF66 /* NavigationStackMainView.swift in Sources */,
 				D50E48662BEE40BA000F03B3 /* BeforeUsingStateObject.swift in Sources */,
-				D5E568DA2C1040780040B1B7 /* EtcView3.swift in Sources */,
 				D5CBEE312BEB48E3007190C7 /* GobalNavigationStack.swift in Sources */,
 				D5A0DAAE2BAFEBC7000CA06E /* SwiftUIAnimationApp.swift in Sources */,
-				D5E568D82C1036EE0040B1B7 /* EtcView2.swift in Sources */,
+				D5CC33522C44FF5C00140BB2 /* CarouselType.swift in Sources */,
 				D563D4942BECA664004227A9 /* UsingRouteExample.swift in Sources */,
 				D5CBEE2B2BEB1BE4007190C7 /* NavigationStackBinding.swift in Sources */,
+				D5CC33542C45211D00140BB2 /* CarouselOffetView.swift in Sources */,
 				D50E48642BEE3E15000F03B3 /* AboutStateObject.swift in Sources */,
 				D56577022C205852008661D0 /* TabViewMain.swift in Sources */,
 				D564D8E32BB3F1D0008EB4EE /* BasicLayout.swift in Sources */,
 				D563D48F2BECA1CE004227A9 /* BasicSecondNavigationPath.swift in Sources */,
 				D5A0DABF2BAFF5F0000CA06E /* DragGesture_1.swift in Sources */,
+				D50780B72C46F97000F8143B /* CarouselNextView.swift in Sources */,
 				D562464F2BEB126D008EAF66 /* NavigationStackSecondView.swift in Sources */,
 				D562464D2BEA5102008EAF66 /* NavigationDestinationExample.swift in Sources */,
 				D564D8EC2BB552B5008EB4EE /* OffsetAndPosition.swift in Sources */,
+				D5CC334F2C4427C100140BB2 /* SheetTest.swift in Sources */,
 				D5A62C372BD1F71700EFA70E /* NavigationPathStudy.swift in Sources */,
 				D564D8DD2BB3E84D008EB4EE /* AboutOffSet.swift in Sources */,
 				D554AD252BF7854700EEFFC8 /* AboutZStack.swift in Sources */,
@@ -437,6 +480,7 @@
 				D564D8E72BB4F362008EB4EE /* BasicGraphic.swift in Sources */,
 				D5A62C342BD166F600EFA70E /* LazyStackLifeCycle.swift in Sources */,
 				D565770A2C205C7E008661D0 /* TabViewRouter.swift in Sources */,
+				D565771F2C216E95008661D0 /* Test1.swift in Sources */,
 				D5DB6F2D2BF797410062DA6B /* ZStackModifier.swift in Sources */,
 				D5CBEE332BEB6C00007190C7 /* NavigationInitChecking.swift in Sources */,
 			);

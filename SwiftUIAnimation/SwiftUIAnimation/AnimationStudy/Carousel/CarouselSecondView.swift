@@ -1,0 +1,105 @@
+//
+//  CarouselSecondView.swift
+//  SwiftUIAnimation
+//
+//  Created by 박서연 on 2024/07/15.
+//
+
+import SwiftUI
+
+public struct CarouselSecondView<Data: Identifiable, Content: View>: View {
+    
+    public let data: [Data]
+    public let edgeSpacing: CGFloat
+    public let contentSpacing: CGFloat
+    public let totalSpacing: CGFloat
+    public let contentHeight: CGFloat
+    public let carouselContent: (Data) -> Content
+    public let lastContent: () -> Content
+    
+    @State public var currentIndex: CGFloat = 0
+    @State public var currentOffset: CGFloat = 0
+    
+    public init(
+        data: [Data],
+        edgeSpacing: CGFloat,
+        contentSpacing: CGFloat,
+        totalSpacing: CGFloat,
+        contentHeight: CGFloat,
+        @ViewBuilder carouselContent: @escaping (Data) -> Content,
+        @ViewBuilder lastContent: @escaping () -> Content
+    ) {
+        self.data = data
+        self.edgeSpacing = edgeSpacing
+        self.contentSpacing = contentSpacing
+        self.totalSpacing = totalSpacing
+        self.contentHeight = contentHeight
+        self.carouselContent = carouselContent
+        self.lastContent = lastContent
+    }
+    
+    public var body: some View {
+        VStack {
+            GeometryReader { geometry in
+                let size = geometry.size
+//                let contentWidth = size.width - (edgeSpacing * 2)
+                let contentWidth = size.width - (edgeSpacing * 2) + (contentSpacing * 2)
+                let nextOffset = contentWidth + contentSpacing
+                
+                HStack(spacing: contentSpacing) {
+                    ForEach(0...data.count, id: \.self) { index in
+                        if index == data.count {
+                            lastContent()
+                        } else {
+                            carouselContent(data[index])
+                        }
+                    }
+                    .frame(width: contentWidth, height: contentHeight)
+                    .gesture(
+                        DragGesture()
+                            .onChanged { value in
+                                
+                            }
+                            .onEnded { value in
+                                let offsetX = value.translation.width
+                                
+                                if offsetX < -50 {
+                                    currentIndex = min(currentIndex + 1, CGFloat(data.count))
+                                } else if offsetX > 50 {
+                                    currentIndex = max(currentIndex - 1, 0)
+                                }
+                                
+                                withAnimation {
+                                    currentOffset = -currentIndex * nextOffset
+                                }
+                            }
+                    )
+                }
+                .offset(x: currentOffset + (currentIndex == 0 ? 0 : edgeSpacing - contentSpacing))
+//                .offset(x: currentOffset + (currentIndex == 0 ? 0 : edgeSpacing))
+            }
+        }
+        .padding(.horizontal, totalSpacing)
+    }
+}
+
+struct CarouselSecondExample: View {
+    var body: some View {
+        CarouselSecondView(data: CarouselType.data,
+                           edgeSpacing: 25,
+                           contentSpacing: 8,
+                           totalSpacing: 20,
+                           contentHeight: 400) { value in
+            Rectangle()
+                .fill(value.color)
+            
+        } lastContent: {
+            Rectangle()
+                .fill(.black)
+        }
+    }
+}
+
+#Preview {
+    CarouselSecondExample()
+}

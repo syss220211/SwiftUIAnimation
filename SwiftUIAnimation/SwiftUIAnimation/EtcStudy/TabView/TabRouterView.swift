@@ -17,13 +17,11 @@ struct TabRouterView<Content: View>: View {
     
     var body: some View {
         NavigationStack(path: $router.path) {
-            VStack {
-                content
-            }
-            .navigationDestination(for: TabViewRouter.Route.self) { route in
-                router.view(for: route)
-            }
-            .navigationBarTitle("", displayMode: .inline)
+            content
+                .navigationDestination(for: TabViewRouter.Route.self) { route in
+                    router.view(for: route)
+                }
+                .navigationBarTitle("", displayMode: .inline)
         }
         .environmentObject(router)
     }
