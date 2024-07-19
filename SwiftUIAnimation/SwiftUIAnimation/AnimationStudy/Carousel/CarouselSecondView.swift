@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+// 이상한 Carousel... wdith가 이상함
 public struct CarouselSecondView<Data: Identifiable, Content: View>: View {
     
     public let data: [Data]

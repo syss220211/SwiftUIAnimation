@@ -49,6 +49,9 @@
 		D5A62C2C2BD11D7D00EFA70E /* ModalLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A62C2B2BD11D7D00EFA70E /* ModalLifeCycle.swift */; };
 		D5A62C342BD166F600EFA70E /* LazyStackLifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A62C332BD166F600EFA70E /* LazyStackLifeCycle.swift */; };
 		D5A62C372BD1F71700EFA70E /* NavigationPathStudy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A62C362BD1F71700EFA70E /* NavigationPathStudy.swift */; };
+		D5AD44522C4A49AD009CEF38 /* KeyChainExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD44512C4A49AD009CEF38 /* KeyChainExample.swift */; };
+		D5AD44542C4A49CF009CEF38 /* AccountStorageExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD44532C4A49CF009CEF38 /* AccountStorageExample.swift */; };
+		D5AD44562C4A4A35009CEF38 /* KeyChainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD44552C4A4A35009CEF38 /* KeyChainView.swift */; };
 		D5CBEE2B2BEB1BE4007190C7 /* NavigationStackBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBEE2A2BEB1BE4007190C7 /* NavigationStackBinding.swift */; };
 		D5CBEE2F2BEB2360007190C7 /* NavigationWithEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBEE2E2BEB2360007190C7 /* NavigationWithEnum.swift */; };
 		D5CBEE312BEB48E3007190C7 /* GobalNavigationStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CBEE302BEB48E3007190C7 /* GobalNavigationStack.swift */; };
@@ -103,6 +106,9 @@
 		D5A62C2B2BD11D7D00EFA70E /* ModalLifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalLifeCycle.swift; sourceTree = "<group>"; };
 		D5A62C332BD166F600EFA70E /* LazyStackLifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazyStackLifeCycle.swift; sourceTree = "<group>"; };
 		D5A62C362BD1F71700EFA70E /* NavigationPathStudy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationPathStudy.swift; sourceTree = "<group>"; };
+		D5AD44512C4A49AD009CEF38 /* KeyChainExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainExample.swift; sourceTree = "<group>"; };
+		D5AD44532C4A49CF009CEF38 /* AccountStorageExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountStorageExample.swift; sourceTree = "<group>"; };
+		D5AD44552C4A4A35009CEF38 /* KeyChainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainView.swift; sourceTree = "<group>"; };
 		D5CBEE2A2BEB1BE4007190C7 /* NavigationStackBinding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStackBinding.swift; sourceTree = "<group>"; };
 		D5CBEE2E2BEB2360007190C7 /* NavigationWithEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationWithEnum.swift; sourceTree = "<group>"; };
 		D5CBEE302BEB48E3007190C7 /* GobalNavigationStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GobalNavigationStack.swift; sourceTree = "<group>"; };
@@ -280,6 +286,7 @@
 		D5A62C262BD1107B00EFA70E /* EtcStudy */ = {
 			isa = PBXGroup;
 			children = (
+				D5AD44502C4A499B009CEF38 /* KeyChain */,
 				D565770F2C209C71008661D0 /* Shadow */,
 				D56577002C205842008661D0 /* TabView */,
 				D5E568D42C1033250040B1B7 /* Sheet */,
@@ -311,6 +318,16 @@
 				D50E48652BEE40BA000F03B3 /* BeforeUsingStateObject.swift */,
 			);
 			path = "Property Wrappers";
+			sourceTree = "<group>";
+		};
+		D5AD44502C4A499B009CEF38 /* KeyChain */ = {
+			isa = PBXGroup;
+			children = (
+				D5AD44512C4A49AD009CEF38 /* KeyChainExample.swift */,
+				D5AD44532C4A49CF009CEF38 /* AccountStorageExample.swift */,
+				D5AD44552C4A4A35009CEF38 /* KeyChainView.swift */,
+			);
+			path = KeyChain;
 			sourceTree = "<group>";
 		};
 		D5CBEE2C2BEB2345007190C7 /* Route */ = {
@@ -451,6 +468,7 @@
 				D5A0DAB02BAFEBC7000CA06E /* ContentView.swift in Sources */,
 				D56246512BEB128D008EAF66 /* NavigationStackMainView.swift in Sources */,
 				D50E48662BEE40BA000F03B3 /* BeforeUsingStateObject.swift in Sources */,
+				D5AD44562C4A4A35009CEF38 /* KeyChainView.swift in Sources */,
 				D5CBEE312BEB48E3007190C7 /* GobalNavigationStack.swift in Sources */,
 				D5A0DAAE2BAFEBC7000CA06E /* SwiftUIAnimationApp.swift in Sources */,
 				D5CC33522C44FF5C00140BB2 /* CarouselType.swift in Sources */,
@@ -473,11 +491,13 @@
 				D564D8EE2BB583B4008EB4EE /* AboutAnimation.swift in Sources */,
 				D563D48C2BEC9ECA004227A9 /* BasicNavigationPath.swift in Sources */,
 				D554AD292BF78BF300EEFFC8 /* ZStackExample.swift in Sources */,
+				D5AD44542C4A49CF009CEF38 /* AccountStorageExample.swift in Sources */,
 				D5A62C282BD1108D00EFA70E /* LifeCycle.swift in Sources */,
 				D50E48682BEE47E0000F03B3 /* AboutEnvironmentObject.swift in Sources */,
 				D554AD272BF7865100EEFFC8 /* OverlayExample.swift in Sources */,
 				D563D4912BECA1EB004227A9 /* NavigationPathData.swift in Sources */,
 				D564D8E72BB4F362008EB4EE /* BasicGraphic.swift in Sources */,
+				D5AD44522C4A49AD009CEF38 /* KeyChainExample.swift in Sources */,
 				D5A62C342BD166F600EFA70E /* LazyStackLifeCycle.swift in Sources */,
 				D565770A2C205C7E008661D0 /* TabViewRouter.swift in Sources */,
 				D565771F2C216E95008661D0 /* Test1.swift in Sources */,
