@@ -83,6 +83,6 @@ struct CheckingBetween: View {
 }
 
 #Preview {
-//    AboutOffSet()
-    CheckingBetween()
+    AboutOffSet()
+//    CheckingBetween()
 }

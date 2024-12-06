@@ -21,6 +21,10 @@ struct TabView1: View {
                         print("tab1")
                         router.navigateTo(.oneOne)
                     }
+                
+                NavigationLink("Go to Detail View (with Tab Bar)") {
+                    DetailView2()
+                }
             }
             .foregroundStyle(Color.white)
         }
@@ -51,7 +55,7 @@ struct TabView3: View {
     
     var body: some View {
         ZStack {
-            Color.blue
+            Color.gray
                 .ignoresSafeArea()
             VStack {
                 Text("oneOne")
@@ -90,6 +94,19 @@ struct TabView5: View {
         }
     }
 }
+
+struct DetailView2: View {
+    var body: some View {
+        ZStack {
+            Color.brown
+                .ignoresSafeArea()
+            Text("DetailView2")
+                .font(.largeTitle)
+                .foregroundStyle(Color.white)
+        }
+    }
+}
+
 
 #Preview {
     TabView3()
